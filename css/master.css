@@ -33,10 +33,13 @@
   z-index: 10;
 
 }
+.firstDigit{
+  margin-left: 35px;
+}
 .digit{
   outline: 1px solid red;
 
-
+  width: 38px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,7 +56,15 @@
   height: 50px;
 }
 .arrow img{
-  width: 149px;
+  width: 100%;
+  height: 50px;
+}
+.arrow2{
+  outline: 1px solid red;
+  height: 50px;
+}
+.arrow2 img{
+  width: 100%;
   height: 50px;
 }
 .secondDigit .arrow img{
@@ -63,6 +74,17 @@
   position: relative;
   outline: 1px solid red;
   text-align: center;
-  margin-top: -15px;
+  margin-top: -19px;
   z-index: 1;
+  width: 880px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hidden{
+  visibility: hidden;
+}
+canvas{
+  outline: 1px solid red;
+  width: 600px;
+  height: 100px;
 }

@@ -18,7 +18,7 @@
     </div>
     <div class="digitContainer">
     <!--первое число стрелка+окошко ввода-->
-    <div class="digit firstDigit">
+    <div class="digit firstDigit" id="numberOne">
       <form class="window1" action="index.html" method="post">
         <input type="number" name="summand1" value="" id="summandOne">
       </form>
@@ -29,13 +29,12 @@
 
     </div>
     <!--второе число стрелка+окошко ввода-->
-    <div class="digit secondDigit">
+    <div class="digit secondDigit hidden" id="numberTwo">
       <form class="window1" action="index.html" method="post">
-        <input type="number" name="summand1" value="" id="summandOne">
+        <input type="number" name="summand1" value="" id="summandTwo">
       </form>
-      <div class="arrow">
+      <div class="arrow2">
         <img src="img/arrow.png" alt="">
-
       </div>
 
     </div>
@@ -44,8 +43,11 @@
     <div class="scale">
       <img src="img\sprite.png" alt="">
     </div>
+    <canvas id="mycan">
+
+    </canvas>
 
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

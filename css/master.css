@@ -1,7 +1,7 @@
 
 
 .extention{
-  outline: 1px solid red;
+
 
   margin-left: auto;
   margin-right: auto;
@@ -20,26 +20,32 @@
   align-items: center;
 
 }
+.number{
+  border-radius: 20%;
+  width: 25px;
+  text-align: center;
+}
 .digitContainer{
   margin-top: 150px;
   width: 870px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  outline: 1px solid red;
+
   display: flex;
   flex-direction: row;
   justify-content:flex-start;
   z-index: 10;
+  border-radius: 10%;
 
 }
 .firstDigit{
   margin-left: 35px;
 }
 .digit{
-  outline: 1px solid red;
 
-  width: 38px;
+
+  width: 39px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,9 +56,10 @@
   width: 30px;
   height: 40px;
   font-size: 30px;
+  border-radius: 10%;
 }
 .arrow{
-  outline: 1px solid red;
+
   height: 50px;
 }
 .arrow img{
@@ -60,7 +67,7 @@
   height: 50px;
 }
 .arrow2{
-  outline: 1px solid red;
+
   height: 50px;
 }
 .arrow2 img{
@@ -72,7 +79,7 @@
 }
 .scale{
   position: relative;
-  outline: 1px solid red;
+
   text-align: center;
   margin-top: -19px;
   z-index: 1;
@@ -84,7 +91,16 @@
   visibility: hidden;
 }
 canvas{
-  outline: 1px solid red;
+
   width: 600px;
   height: 100px;
+}
+.resultwindow{
+  width: 50px;
+  height: 30px;
+  position: relative;
+  right: 35px;
+  font-size: 30px;
+  border-radius: 10%;
+
 }
